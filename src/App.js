@@ -1,9 +1,9 @@
-import Header from './Components/Header';
+import Header from '../build/static/Components/Header';
 import { useState } from "react"
-import Lists from './Components/Lists';
-import AddList from './Components/AddList';
+import Lists from '../build/static/Components/Lists';
+import AddList from '../build/static/Components/AddList';
 import './App.css';
-import List from './Components/List';
+import List from '../build/static/Components/List';
 
 function App() {
   const [showAddList, setShowAddList] = useState(false)
